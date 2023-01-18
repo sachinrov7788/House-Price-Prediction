@@ -1,17 +1,32 @@
-# Bengaluru_House_Price_Prediction_Model
+## LIVE DEMO : [Heruko App](https://breast-cancer-11.herokuapp.com/)
 
-# Project definition:
-The objective of the project is to create a machine learning model. We are doing a supervised learning and our aim is to do predictive analysis to predict housing price.
-The problem we are going to solve in this project is the house price prediction problem. Based on certain features of the house, such as the location, area in square feet, number of bedrooms, number of bathrooms, we predict the estimated price of the house.
+## Tech Stack
+ - Sci-kit
+ - Flask (Backend)
+ - Gunicorn Server
+ - Heroku (PaaS)
+
+## Model Training
+  I have added a detailed notes on the training and inference model in this [repository](https://github.com/sachin778899/car-price-prediction).
+> In this repo, I will only have instructions to build front end and deploy.
 
 
+## Instruction
+#### To run locally,
+1. Clone this repository with ```git clone```.
+2. Open a terminal inside the project directory.
+3. Install dependencies using ```pip install -r requirements.txt```
+4. Run python app.py to open the app on ```localhost:8000```.
 
+#### To Deploy on Heroku,
 
+> Make sure you have all the requirements in requirements.py
 
-# Future Scope :
-- Use multiple Algorithms
-- Optimize Flask app.py
-- Update the Front-End
+```I assume you have already created heroku account and Heroku CLI on your machine```.
 
-# For detail Knowledge For model :
-visit this blog: https://housepricepredictionproject.blogspot.com/2021/08/house-price-prediction-ml-model-webapp.html
+1. Open a terminal on the project directory and create a heroku application.
+2. And deploye the project in that Heroku application.
+3. Then it will generate link on Heroku application.
+
+Now you are all set to go, deploy with a single command ```git push heroku master```.
+
